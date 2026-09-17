@@ -1,1 +1,1 @@
-# Ethernaut-Challenges
+# Ethernaut Challenges
