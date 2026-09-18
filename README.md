@@ -8,6 +8,16 @@ Ethernaut is a Web3 security wargame where each level contains a vulnerable smar
 
 ---
 
+## Solved Challenges
+
+| # | Challenge | Status |
+|---:|---|:---:|
+| 01 | [Fallback](./src/challenge-01_Fallback/README.md) | ✅ |
+| 02 | [Fallout](./src/challenge-02_Fallout/README.md) | ✅ |
+| 03 | [CoinFlip](./src/challenge-03_Coinflip/README.md) | ✅ |
+
+>More challenges will be added as they are solved.
+
 ## What this repo covers
 
 This repository focuses on learning smart contract security through:
@@ -20,51 +30,6 @@ This repository focuses on learning smart contract security through:
 * Live exploit verification on Ethereum Sepolia
 
 Each challenge is documented from **vulnerability → attack path → PoC → impact → remediation**.
-
----
-
-## Setup
-
-### Tooling
-
-* **Solidity**
-* **Foundry**
-* **Forge**
-* **Cast**
-
-### Networks
-
-* Local Anvil
-* Ethereum Sepolia
-
-### Install Foundry
-
-https://getfoundry.sh/
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Jash-Bohare/Ethernaut-Challenges.git
-cd Ethernaut-Challenges
-```
-
-Install dependencies:
-
-```bash
-forge install
-```
-
-Build:
-
-```bash
-forge build
-```
-
-Run tests:
-
-```bash
-forge test
-```
 
 ---
 
@@ -103,37 +68,6 @@ Where applicable, each challenge contains:
 
 ---
 
-## Local Testing
-
-Foundry tests are used to reproduce vulnerabilities locally whenever practical.
-
-Run all tests:
-
-```bash
-forge test
-```
-
-Run a specific test:
-
-```bash
-forge test --mt <testName> -vvv
-```
-
-For challenges involving live instances, `cast` and Foundry scripts are used to verify the exploit against Sepolia.
-
----
-## Solved Challenges
-
-| # | Challenge | Status |
-|---:|---|:---:|
-| 01 | [Fallback](./src/challenge-01_Fallback/README.md) | ✅ |
-| 02 | [Fallout](./src/challenge-02_Fallout/README.md) | ✅ |
-| 03 | [CoinFlip](./src/challenge-03_Coinflip/README.md) | ✅ |
-
->More challenges will be added as they are solved.
-
----
-
 ## Learning Approach
 
 The goal of this repository is not just to collect solutions.
@@ -166,10 +100,4 @@ Document the security takeaway
 
 GitHub: https://github.com/Jash-Bohare
 
----
-
-## Ethernaut
-
-https://ethernaut.openzeppelin.com/
-
-Learning smart contract security one vulnerable contract at a time.
+> Learning smart contract security one vulnerable contract at a time.
