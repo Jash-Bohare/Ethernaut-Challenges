@@ -17,6 +17,7 @@ Ethernaut is a Web3 security wargame where each level contains a vulnerable smar
 | 03 | [CoinFlip](./src/challenge-03_Coinflip/README.md) | ✅ |
 | 04 | [Telephone](./src/challenge-04_Telephone/README.md) | ✅ |
 | 05 | [Token](./src/challenge-05_Token/README.md) | ✅ |
+| 06 | [Delegation](./src/challenge-06_Delegation/README.md) | ✅ |
 
 > More challenges will be added as they are solved.
 
